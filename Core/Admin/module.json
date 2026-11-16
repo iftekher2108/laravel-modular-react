@@ -1,0 +1,11 @@
+{
+    "name": "Admin",
+    "alias": "admin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Core\\Admin\\Providers\\AdminServiceProvider"
+    ],
+    "files": []
+}

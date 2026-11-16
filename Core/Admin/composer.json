@@ -1,0 +1,30 @@
+{
+    "name": "iftekher2108/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Iftekher Mahmud",
+            "email": "iftekhermahmud1@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Admin\\": "app/",
+            "Core\\Admin\\Database\\Factories\\": "database/factories/",
+            "Core\\Admin\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Core\\Admin\\Tests\\": "tests/"
+        }
+    }
+}
